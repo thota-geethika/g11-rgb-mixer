@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB mixer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="toArrange">
+        <div id="colorWithText" style="align-self: flex-start;">
+            <h1 style="margin-bottom: 10%;">RGB Color</h1>
+            <div id="displayColor">
+                <p></p>
+            </div>
+        </div>
+        
+
+        <div id="setValues" class="colorsContainer">
+            <label for="redColor">Red</label>
+            <input type="range" min="0" max="255" id="redColor" class="rangeInput">
+
+            <label for="greenColor">Green</label>
+            <input type="range" min="0" max="255" id="greenColor" class="rangeInput">
+
+            <label for="blueColor">Blue</label>
+            <input type="range" min="0" max="255" id="blueColor" class="rangeInput">
+
+        </div>
+    </div>
+</body>
+</html>
